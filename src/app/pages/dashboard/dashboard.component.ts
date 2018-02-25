@@ -8,15 +8,15 @@ import {Component} from '@angular/core';
 export class DashboardComponent {
   public problemSolvingSkill: any = {
     name: 'Problem Solving',
-    value: 85
+    value: 85,
   };
   public analyticsalSkill: any = {
     name: 'Analytical Skill',
-    value: 80
+    value: 80,
   };
   public produceDevelopmentSkill: any = {
     name: 'Product Development',
-    value: 90
+    value: 90,
   };
 
   public competencies: any = {
