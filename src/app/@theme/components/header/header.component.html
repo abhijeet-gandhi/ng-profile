@@ -1,0 +1,9 @@
+<div class="header-container"
+     [class.left]="position === 'normal'"
+     [class.right]="position === 'inverse'">
+  <div class="logo-containter">
+    <!--<a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>-->
+    <nb-user [name]="user?.name" [picture]="user?.picture"></nb-user>
+    <div class="logo" (click)="goToHome()">ABHIJEET GANDHI</div>
+  </div>
+</div>
